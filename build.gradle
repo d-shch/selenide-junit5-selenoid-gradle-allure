@@ -32,9 +32,12 @@ dependencies {
     compile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.1.0'
     compile 'org.assertj:assertj-core:3.9.0'
     compile 'com.codeborne:selenide:4.10.01'
-    testCompile group: 'io.qameta.allure', name: 'allure-junit5', version: '2.6.0'
-    compile group: 'io.qameta.allure', name: 'allure-selenide', version: '2.0-BETA22'
-    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.1.0'
+    compile 'io.qameta.allure:allure-junit5:2.6.0'
+    compile 'io.qameta.allure:allure-selenide:2.0-BETA22'
+    compile 'org.junit.jupiter:junit-jupiter-params:5.1.0'
+    compile 'org.junit.platform:junit-platform-suite-api:1.1.0'
+    compile 'org.junit.platform:junit-platform-runner:1.1.0'
+
 }
 
 junitPlatform {
